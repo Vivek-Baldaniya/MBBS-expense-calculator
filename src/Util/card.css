@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    margin: 2em;
+    padding: 1.5em;
+    background-color: #F1F6F9;
+    width: fit-content;
+    border-radius: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.cardImg{
+    margin: 0.5em;
+    height: 180px;
+    width: 180px;
+}
+
+.cardTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}   
+
+.card.selected{
+    background-color: lightblue;
+}

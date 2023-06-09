@@ -1,0 +1,49 @@
+.finalSubmit{
+    color: white;
+    background-color: rgb(255, 86, 44);
+    padding: 0.5em 1.5em;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    border: 1;
+    transition: 0.3s ease;
+    margin-bottom: 2em;
+}
+
+.finalSubmit:hover{
+    background-color: rgb(255, 122, 89);
+}
+
+.wrapper.five {
+    margin-top: 3em;
+    background-color: rgb(255, 101, 139);
+    font-size: 2rem;
+    font-family: "Play", sans-serif;    
+}
+.float-box {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transform: perspective(100px) rotateY(10deg);
+}
+.float {
+    animation: floating 2s linear infinite;
+    margin: 3.5rem auto 1.5rem auto;
+    padding: 1rem;
+    background: rgb(255, 59, 108);
+    color: #ffffff;
+    box-shadow: -20px -17px 8px 0px rgb(177, 78, 102);
+}
+@keyframes floating {
+    0% {
+        transform: translate(0%, 30%);
+    }
+    50% {
+        transform: translate(0%, -30%);
+    }
+    100% {
+        transform: translate(0%, 30%);
+    }
+}
